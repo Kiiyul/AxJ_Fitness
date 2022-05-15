@@ -1,7 +1,60 @@
-body {
-    background-color: #232122; 
-    color: #ffffff;
+body{
+    margin: 0px;
 }
-Div {
-    text-align: center;
+
+@font-face {
+    font-family: Aileron;
+    src: url(Aileron-Thin.woff);
+}
+
+.header{
+    background-image: url("img/ashback.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;   
+    padding-left: 200px; 
+    padding-right: 200px;
+    padding-bottom: 200px;
+    font-family: Aileron;
+}
+
+.logo-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.axj{
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo{
+width: 100px;
+height: auto;
 }
